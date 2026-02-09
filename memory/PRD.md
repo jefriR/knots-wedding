@@ -212,3 +212,46 @@ Generate a responsive Single Page Application (SPA) with a clean, magazine-style
 
 ### User Decision Required:
 Choose preferred color scheme to set as primary version.
+
+## Update: February 9, 2026 - White/Gold Theme Refinements
+
+### User-Requested Adjustments Completed:
+
+1. **New Logo Implementation ✓**
+   - Replaced with new transparent PNG logo (gold knot on black background)
+   - Clean display on white navigation header
+   - Removed mix-blend-mode for true transparency
+   - Logo URL: https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/2hpauqgp_knots.png
+
+2. **New Hero Banner ✓**
+   - Changed from busy chandelier to minimalist couple silhouette
+   - Elegant architectural space with clean lines
+   - Better alignment with white/black/gold aesthetic
+   - Image: https://images.unsplash.com/photo-1640439505734-3851b53e5035
+
+3. **2-Column About Section ✓**
+   - Left column: Company description and mission text
+   - Right column: Elegant luxury venue image with gold border (3px)
+   - Responsive: stacks to single column on mobile
+   - Image with hover zoom effect
+   - About image: https://images.unsplash.com/photo-1646734643617-3812fd3cc095
+
+### Design Improvements:
+- Cleaner, more sophisticated hero section
+- Better visual balance with 2-column about layout
+- Gold border on about image reinforces brand colors
+- Minimalist aesthetic throughout maintains luxury feel
+
+### Primary Theme Selected:
+**White/Black/Gold** chosen as primary design direction
+- High contrast for modern luxury positioning
+- Gold accents create premium brand perception
+- Clean white backgrounds for contemporary feel
+- Strong visual hierarchy with black text
+
+### Files Modified:
+- `/app/frontend/src/AppWhite.js` - Updated logo, hero, and about section structure
+- `/app/frontend/src/App-white.css` - Added 2-column about grid, image styling, responsive rules
+
+### User Preference Confirmed:
+White/Black/Gold theme set as the primary version for KNOTS website.

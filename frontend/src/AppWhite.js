@@ -7,7 +7,7 @@ import { toast } from "sonner";
 
 const LOGO_URL = "https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/2hpauqgp_knots.png";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1640439505734-3851b53e5035";
-const ABOUT_IMAGE = "https://images.unsplash.com/photo-1646734643617-3812fd3cc095";
+const ABOUT_IMAGE = "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800";
 
 function AppWhite() {
   const [formData, setFormData] = useState({

@@ -5,8 +5,9 @@ import { Star, Calendar, ClipboardList, Sparkles, Mail, Instagram, Send } from "
 import { Toaster } from "./components/ui/sonner";
 import { toast } from "sonner";
 
-const LOGO_URL = "https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/m89p6acf_knots.JPG";
-const HERO_IMAGE = "https://images.unsplash.com/photo-1759519238029-689e99c6d19e";
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/2hpauqgp_knots.png";
+const HERO_IMAGE = "https://images.unsplash.com/photo-1640439505734-3851b53e5035";
+const ABOUT_IMAGE = "https://images.unsplash.com/photo-1646734643617-3812fd3cc095";
 
 function AppWhite() {
   const [formData, setFormData] = useState({
@@ -127,19 +128,28 @@ function AppWhite() {
       <section id="about" className="section about-section">
         <div className="container">
           <h2 className="heading-1 section-title">The Art of Celebration</h2>
-          <div className="about-content">
-            <p className="body-large" style={{ marginBottom: '24px' }}>
-              Established in February 2026, KNOTS is a bespoke wedding consultancy 
-              dedicated to the modern couple. Operating in the vibrant heart of Jakarta 
-              and the elegant highlands of Bandung, we specialize in orchestrating 
-              high-end luxury weddings and traditional cultural ceremonies with surgical precision.
-            </p>
-            <p className="body-large">
-              We believe that every 'knot' tied should be a masterpiece of style, 
-              logistics, and emotion. Our commitment is to transform your vision into 
-              an unforgettable celebration that honors both contemporary aesthetics 
-              and cherished traditions.
-            </p>
+          <div className="about-grid">
+            <div className="about-text">
+              <p className="body-large" style={{ marginBottom: '24px' }}>
+                Established in February 2026, KNOTS is a bespoke wedding consultancy 
+                dedicated to the modern couple. Operating in the vibrant heart of Jakarta 
+                and the elegant highlands of Bandung, we specialize in orchestrating 
+                high-end luxury weddings and traditional cultural ceremonies with surgical precision.
+              </p>
+              <p className="body-large">
+                We believe that every 'knot' tied should be a masterpiece of style, 
+                logistics, and emotion. Our commitment is to transform your vision into 
+                an unforgettable celebration that honors both contemporary aesthetics 
+                and cherished traditions.
+              </p>
+            </div>
+            <div className="about-image-container">
+              <img 
+                src={ABOUT_IMAGE} 
+                alt="Luxury Wedding Venue" 
+                className="about-image"
+              />
+            </div>
           </div>
         </div>
       </section>

@@ -131,16 +131,19 @@ function AppWhite() {
           <div className="about-grid">
             <div className="about-text">
               <p className="body-large" style={{ marginBottom: '24px' }}>
-                Established in February 2026, KNOTS is a bespoke wedding consultancy 
-                dedicated to the modern couple. Operating in the vibrant heart of Jakarta 
-                and the elegant highlands of Bandung, we specialize in orchestrating 
-                high-end luxury weddings and traditional cultural ceremonies with surgical precision.
+                At KNOTS WEDDING ORGANIZER & PLANNER, we believe every love story is unique and deserves to be celebrated beautifully. We are a wedding planning team dedicated to helping couples create a meaningful, elegant, and stress-free wedding day.
               </p>
-              <p className="body-large">
-                We believe that every 'knot' tied should be a masterpiece of style, 
-                logistics, and emotion. Our commitment is to transform your vision into 
-                an unforgettable celebration that honors both contemporary aesthetics 
-                and cherished traditions.
+              <p className="body-large" style={{ marginBottom: '24px' }}>
+                From the first idea until the final moment of your celebration, we walk with you step by step to make sure every detail reflects your story, your dreams, and your personality.
+              </p>
+              <p className="body-large" style={{ marginBottom: '24px' }}>
+                We focus on sincerity, clear communication, and thoughtful planning – so you can truly enjoy your special day with your loved ones.
+              </p>
+              <p className="body-large" style={{ fontWeight: '500' }}>
+                Your happiness is our priority.
+              </p>
+              <p className="body-large" style={{ fontStyle: 'italic', marginTop: '16px' }}>
+                Let us take care of the details, while you enjoy every moment of your journey to "I do".
               </p>
             </div>
             <div className="about-image-container">

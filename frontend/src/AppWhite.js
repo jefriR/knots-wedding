@@ -112,7 +112,7 @@ function AppWhite() {
         <div className="hero-content">
           <h1 className="hero-title">KNOTS: Crafting Timeless Legacies</h1>
           <p className="hero-subtitle">
-            Premier Wedding Planning & Organizing in Jakarta and Bandung. 
+            Premier Wedding Planning & Organizing in Jakarta and Tangerang. 
             Where modern luxury meets honored tradition.
           </p>
           <button 

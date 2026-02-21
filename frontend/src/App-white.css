@@ -678,6 +678,8 @@
   .footer-logo {
     max-width: 200px;
     height: auto;
+    margin: 0 auto 24px;
+    display: block;
   }
 
   .footer-tagline {

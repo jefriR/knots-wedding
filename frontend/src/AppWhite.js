@@ -130,19 +130,19 @@ function AppWhite() {
           <h2 className="heading-1 section-title">The Art of Celebration</h2>
           <div className="about-grid">
             <div className="about-text">
-              <p className="body-large" style={{ marginBottom: '24px' }}>
+              <p className="body-large" style={{ marginBottom: '24px', textAlign: 'justify' }}>
                 At KNOTS WEDDING ORGANIZER & PLANNER, we believe every love story is unique and deserves to be celebrated beautifully. We are a wedding planning team dedicated to helping couples create a meaningful, elegant, and stress-free wedding day.
               </p>
-              <p className="body-large" style={{ marginBottom: '24px' }}>
+              <p className="body-large" style={{ marginBottom: '24px', textAlign: 'justify' }}>
                 From the first idea until the final moment of your celebration, we walk with you step by step to make sure every detail reflects your story, your dreams, and your personality.
               </p>
-              <p className="body-large" style={{ marginBottom: '24px' }}>
+              <p className="body-large" style={{ marginBottom: '24px', textAlign: 'justify' }}>
                 We focus on sincerity, clear communication, and thoughtful planning – so you can truly enjoy your special day with your loved ones.
               </p>
-              <p className="body-large" style={{ fontWeight: '500' }}>
+              <p className="body-large" style={{ fontWeight: '500', textAlign: 'justify' }}>
                 Your happiness is our priority.
               </p>
-              <p className="body-large" style={{ fontStyle: 'italic', marginTop: '16px' }}>
+              <p className="body-large" style={{ fontStyle: 'italic', marginTop: '16px', textAlign: 'justify' }}>
                 Let us take care of the details, while you enjoy every moment of your journey to "I do".
               </p>
             </div>

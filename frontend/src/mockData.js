@@ -53,8 +53,7 @@ export const services = [
       "Rundown Arrangement & Detail Coordination",
       "Holy Matrimony Rehearsal (as needed)",
       "Vendor Coordination for Technical Meeting (H-1 month)",
-      "Family Coordination for Event Details",
-      "Guest Capacity: Standing up to 400 | Seated up to 150"
+      "Family Coordination for Event Details"
     ]
   },
   {
@@ -66,8 +65,7 @@ export const services = [
       "Unlimited Consultations via WhatsApp",
       "Rundown Arrangement & Detail Coordination",
       "Vendor Coordination for Technical Meeting (H-2 weeks)",
-      "Family Coordination for Event Details",
-      "Guest Capacity: up to 70 guests"
+      "Family Coordination for Event Details"
     ]
   }
 ];
@@ -115,5 +113,5 @@ export const contactInfo = {
   email: "knots.wo@gmail.com",
   whatsapp: "0819 3085 3332",
   instagram: "knots.wedding",
-  locations: ["Jakarta", "Bandung"]
+  locations: ["Jakarta", "Tangerang"]
 };

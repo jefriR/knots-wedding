@@ -31,37 +31,43 @@ export const services = [
   {
     id: 1,
     title: "Wedding Planner",
-    description: "Full-scale conceptualization, vendor curation, and aesthetic direction from the first day to the final dance.",
+    description: "Comprehensive planning from concept to celebration, ensuring every detail reflects your unique story.",
     features: [
-      "Complete event design & concept development",
-      "Curated vendor selection & management",
-      "Budget planning & allocation",
-      "Timeline creation & milestone tracking",
-      "Venue sourcing & negotiation"
+      "Financial Budgeting",
+      "Wedding Timeline & Monitoring Preparation",
+      "Vendor Suggestion, Coordination & Negotiation Assistance",
+      "Unlimited Consultations via WhatsApp",
+      "Unlimited Meetings (as needed)",
+      "Holy Matrimony Rehearsal (as needed)",
+      "Includes Engagement & Wedding Organizer Services"
     ]
   },
   {
     id: 2,
     title: "Wedding Organizer",
-    description: "Professional day-of management and logistics coordination to ensure a seamless, stress-free execution.",
+    description: "Expert day-of coordination ensuring a seamless, stress-free celebration for you and your guests.",
     features: [
-      "Full day-of coordination & management",
-      "Vendor coordination & timing",
-      "Guest assistance & logistics",
-      "Ceremony & reception flow management",
-      "Problem resolution & contingency planning"
+      "Financial Budgeting",
+      "Vendor Suggestions",
+      "Unlimited Consultations via WhatsApp",
+      "Rundown Arrangement & Detail Coordination",
+      "Holy Matrimony Rehearsal (as needed)",
+      "Vendor Coordination for Technical Meeting (H-1 month)",
+      "Family Coordination for Event Details",
+      "Guest Capacity: Standing up to 400 | Seated up to 150"
     ]
   },
   {
     id: 3,
-    title: "Sangjit Service",
-    description: "A modern approach to traditional engagement ceremonies, preserving cultural heritage with sophisticated detail.",
+    title: "Engagement Organizer",
+    description: "Thoughtful coordination for your engagement celebration, honoring tradition with modern elegance.",
     features: [
-      "Traditional ceremony consultation",
-      "Custom decor & styling",
-      "Cultural protocol guidance",
-      "Family coordination",
-      "Modern luxury presentation"
+      "Vendor Suggestions",
+      "Unlimited Consultations via WhatsApp",
+      "Rundown Arrangement & Detail Coordination",
+      "Vendor Coordination for Technical Meeting (H-2 weeks)",
+      "Family Coordination for Event Details",
+      "Guest Capacity: up to 70 guests"
     ]
   }
 ];
@@ -106,7 +112,8 @@ export const galleryImages = [
 ];
 
 export const contactInfo = {
-  email: "hello@knots-wedding.com",
-  instagram: "@knots.wedding",
+  email: "knots.wo@gmail.com",
+  whatsapp: "0819 3085 3332",
+  instagram: "knots.wedding",
   locations: ["Jakarta", "Bandung"]
 };

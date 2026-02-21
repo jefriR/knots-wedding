@@ -288,3 +288,60 @@ White/Black/Gold theme set as the primary version for KNOTS website.
 - Production deployment
 
 Website is now in production-ready state for KNOTS Wedding Planner.
+
+## Content Update: February 9, 2026
+
+### Content Updates Completed:
+
+1. **About Us Section ✓**
+   - Updated with new comprehensive description
+   - Focus on personalized service and couple's happiness
+   - Emphasizes sincerity, clear communication, and thoughtful planning
+   - Maintains 2-column layout with wedding rings image
+
+2. **Services Section ✓**
+   - Updated service names:
+     * Wedding Planner (comprehensive planning)
+     * Wedding Organizer (day-of coordination)
+     * Engagement Organizer (replacing Sangjit Service)
+   - Added detailed features for each service
+   - Included guest capacity information:
+     * Wedding Organizer: Standing 400 / Seated 150 guests
+     * Engagement Organizer: up to 70 guests
+
+3. **Contact Information ✓**
+   - Added WhatsApp: 0819 3085 3332 (with clickable link)
+   - Updated Email: knots.wo@gmail.com
+   - Updated Instagram: knots.wedding (without @ symbol)
+   - Maintained Jakarta & Bandung locations
+
+### Service Features Breakdown:
+
+**Wedding Planner:**
+- Financial Budgeting
+- Wedding Timeline & Monitoring Preparation
+- Vendor Suggestion, Coordination & Negotiation Assistance
+- Unlimited Consultations via WhatsApp
+- Unlimited Meetings (as needed)
+- Holy Matrimony Rehearsal (as needed)
+- Includes Engagement & Wedding Organizer Services
+
+**Wedding Organizer:**
+- Financial Budgeting
+- Vendor Suggestions
+- Unlimited Consultations via WhatsApp
+- Rundown Arrangement & Detail Coordination
+- Holy Matrimony Rehearsal (as needed)
+- Vendor Coordination for Technical Meeting (H-1 month)
+- Family Coordination for Event Details
+- Guest Capacity: Standing up to 400 | Seated up to 150
+
+**Engagement Organizer:**
+- Vendor Suggestions
+- Unlimited Consultations via WhatsApp
+- Rundown Arrangement & Detail Coordination
+- Vendor Coordination for Technical Meeting (H-2 weeks)
+- Family Coordination for Event Details
+- Guest Capacity: up to 70 guests
+
+All content now reflects KNOTS' current service offerings and contact information.

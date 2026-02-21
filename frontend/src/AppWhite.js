@@ -257,6 +257,15 @@ function AppWhite() {
               {/* Contact Information */}
               <div className="contact-info">
                 <div className="contact-info-item">
+                  <div className="contact-info-label">WhatsApp</div>
+                  <div className="contact-info-value">
+                    <a href={`https://wa.me/62${contactInfo.whatsapp.replace(/^0/, '').replace(/\s/g, '')}`} target="_blank" rel="noopener noreferrer">
+                      {contactInfo.whatsapp}
+                    </a>
+                  </div>
+                </div>
+
+                <div className="contact-info-item">
                   <div className="contact-info-label">Email</div>
                   <div className="contact-info-value">
                     <a href={`mailto:${contactInfo.email}`}>
@@ -276,13 +285,13 @@ function AppWhite() {
                   <div className="contact-info-label">Follow Us</div>
                   <div className="social-links">
                     <a 
-                      href={`https://instagram.com/${contactInfo.instagram.replace('@', '')}`}
+                      href={`https://instagram.com/${contactInfo.instagram}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-link"
                     >
                       <Instagram size={20} />
-                      {contactInfo.instagram}
+                      @{contactInfo.instagram}
                     </a>
                   </div>
                 </div>

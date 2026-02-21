@@ -388,7 +388,7 @@ function AppWhite() {
             className="footer-logo"
           />
           <p className="footer-tagline">
-            Crafting Timeless Legacies • Jakarta & Bandung
+            Crafting Timeless Legacies • Jakarta & Tangerang
           </p>
           
           <nav className="footer-nav">

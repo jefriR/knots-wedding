@@ -525,6 +525,8 @@
   color: var(--bg-primary);
   padding: 60px 0 40px;
   border-top: 3px solid var(--accent-gold);
+  width: 100%;
+  overflow: hidden;
 }
 
 .footer-content {
@@ -532,6 +534,7 @@
   margin: 0 auto;
   padding: 0 40px;
   text-align: center;
+  width: 100%;
 }
 
 .footer-logo {
@@ -664,10 +667,26 @@
 
   .footer-content {
     padding: 0 16px;
+    width: 100%;
   }
 
   .footer-nav {
     flex-direction: column;
     gap: 16px;
+  }
+
+  .footer-logo {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .footer-tagline {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+    padding: 20px 10px 0;
   }
 }

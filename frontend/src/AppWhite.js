@@ -84,7 +84,7 @@ function AppWhite() {
             </li>
             <li>
               <a className="navigation-link" onClick={() => scrollToSection('gallery')}>
-                Gallery
+                Portfolio
               </a>
             </li>
             <li>
@@ -362,7 +362,7 @@ function AppWhite() {
             <a className="footer-link" onClick={() => scrollToSection('home')}>Home</a>
             <a className="footer-link" onClick={() => scrollToSection('about')}>About</a>
             <a className="footer-link" onClick={() => scrollToSection('services')}>Services</a>
-            <a className="footer-link" onClick={() => scrollToSection('gallery')}>Gallery</a>
+            <a className="footer-link" onClick={() => scrollToSection('gallery')}>Portfolio</a>
             <a className="footer-link" onClick={() => scrollToSection('contact')}>Contact</a>
           </nav>
 

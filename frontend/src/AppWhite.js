@@ -88,11 +88,6 @@ function AppWhite() {
               </a>
             </li>
             <li>
-              <a className="navigation-link" onClick={() => scrollToSection('testimonials')}>
-                Testimonials
-              </a>
-            </li>
-            <li>
               <a className="navigation-link" onClick={() => scrollToSection('contact')}>
                 Contact
               </a>
@@ -209,34 +204,6 @@ function AppWhite() {
                   loading="lazy"
                 />
                 <div className="gallery-overlay"></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section id="testimonials" className="section">
-        <div className="container">
-          <h2 className="heading-1 section-title">Client Testimonials</h2>
-          <p className="body-regular section-subtitle">
-            The words of our couples speak to the care, precision, 
-            and artistry we bring to every celebration.
-          </p>
-          
-          <div className="testimonials-grid">
-            {testimonials.map((testimonial) => (
-              <div key={testimonial.id} className="testimonial-card">
-                <div className="testimonial-rating">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} size={16} fill="currentColor" />
-                  ))}
-                </div>
-                <p className="testimonial-review">"{testimonial.review}"</p>
-                <div className="testimonial-author">{testimonial.name}</div>
-                <div className="testimonial-meta">
-                  {testimonial.location} • {testimonial.date}
-                </div>
               </div>
             ))}
           </div>
@@ -396,7 +363,6 @@ function AppWhite() {
             <a className="footer-link" onClick={() => scrollToSection('about')}>About</a>
             <a className="footer-link" onClick={() => scrollToSection('services')}>Services</a>
             <a className="footer-link" onClick={() => scrollToSection('gallery')}>Gallery</a>
-            <a className="footer-link" onClick={() => scrollToSection('testimonials')}>Testimonials</a>
             <a className="footer-link" onClick={() => scrollToSection('contact')}>Contact</a>
           </nav>
 

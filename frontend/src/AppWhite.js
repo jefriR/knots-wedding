@@ -399,6 +399,7 @@ function AppWhite() {
             <a className="footer-link" onClick={() => scrollToSection('about')}>About</a>
             <a className="footer-link" onClick={() => scrollToSection('services')}>Services</a>
             <a className="footer-link" onClick={() => scrollToSection('gallery')}>Portfolio</a>
+            <a className="footer-link" onClick={() => scrollToSection('faq')}>FAQ</a>
             <a className="footer-link" onClick={() => scrollToSection('contact')}>Contact</a>
           </nav>
 

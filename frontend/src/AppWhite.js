@@ -1,9 +1,15 @@
 import React, { useState } from "react";
 import "./App-white.css";
-import { testimonials, services, galleryImages, contactInfo } from "./mockData";
+import { testimonials, services, galleryImages, contactInfo, faqs } from "./mockData";
 import { Star, Calendar, ClipboardList, Sparkles, Mail, Instagram, Send } from "lucide-react";
 import { Toaster } from "./components/ui/sonner";
 import { toast } from "sonner";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "./components/ui/accordion";
 
 const LOGO_URL = "https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/7c9ltu5c_Knots%20png.png";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1640439505734-3851b53e5035";
@@ -85,6 +91,11 @@ function AppWhite() {
             <li>
               <a className="navigation-link" onClick={() => scrollToSection('gallery')}>
                 Portfolio
+              </a>
+            </li>
+            <li>
+              <a className="navigation-link" onClick={() => scrollToSection('faq')}>
+                FAQ
               </a>
             </li>
             <li>
@@ -206,6 +217,31 @@ function AppWhite() {
                 <div className="gallery-overlay"></div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="section">
+        <div className="container">
+          <h2 className="heading-1 section-title">Frequently Asked Questions</h2>
+          <p className="body-regular section-subtitle">
+            Everything you need to know about our wedding planning services.
+          </p>
+          
+          <div className="faq-container">
+            <Accordion type="single" collapsible className="faq-accordion">
+              {faqs.map((faq) => (
+                <AccordionItem key={faq.id} value={`item-${faq.id}`} className="faq-item">
+                  <AccordionTrigger className="faq-question">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-answer">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>

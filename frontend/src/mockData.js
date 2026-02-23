@@ -109,6 +109,29 @@ export const galleryImages = [
   }
 ];
 
+export const faqs = [
+  {
+    id: 1,
+    question: "What is the difference between your Wedding Planner and Wedding Organizer services?",
+    answer: "Our Wedding Planner service is a full-scale partnership where we guide you through conceptualization, vendor curation, and budget management from day one. The Wedding Organizer service is focused on precision execution, where we step in during the final weeks to take over vendor liaison and manage the day-of timeline flawlessly."
+  },
+  {
+    id: 2,
+    question: "What exactly is included in your Engagement Organizer service?",
+    answer: "Our specialized Engagement Organizer service honors traditional engagement protocols while adding a touch of modern luxury. It includes traditional ceremony rundown planning, vendor coordination for specialized items, family coordination, and on-site management to ensure the celebration is performed perfectly."
+  },
+  {
+    id: 3,
+    question: "Do you handle weddings in Jakarta and Tangerang?",
+    answer: "Yes! We proudly serve couples in both Jakarta and Tangerang, bringing our signature blend of meticulous planning and flawless execution to your celebration, wherever you choose to celebrate your special day."
+  },
+  {
+    id: 4,
+    question: "How do you help couples stay within their wedding budget?",
+    answer: "Budget management is a core pillar of our service. We provide a transparent draft budget early in the process and use our extensive vendor network to negotiate preferred pricing and incentives for our clients, ensuring you get the best value without compromising on quality."
+  }
+];
+
 export const contactInfo = {
   email: "knots.wo@gmail.com",
   whatsapp: "0819 3085 3332",

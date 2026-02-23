@@ -7,38 +7,37 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Inter:wght@300;400;500;600&display=swap');
 
-/* Root Variables - White/Black/Gold Palette */
+/* Root Variables - Burgundy/Maroon & Cream Palette */
 :root {
-  /* Primary Backgrounds - Pure White */
-  --bg-primary: #ffffff;
-  --bg-secondary: #fafafa;
-  --bg-subtle: #f5f5f5;
+  /* Primary Backgrounds - Cream/Beige foundation */
+  --bg-primary: #f7f0e9;
+  --bg-secondary: #faf7f3;
+  --bg-subtle: #ede7e0;
   
-  /* Text Hierarchy - Pure Black */
-  --text-primary: #000000;
-  --text-secondary: #333333;
-  --text-light: #666666;
-  --text-meta: #4a4a4a;
+  /* Text Hierarchy - Deep Burgundy/Maroon */
+  --text-primary: #69111f;
+  --text-secondary: #6c1120;
+  --text-light: #9e6570;
+  --text-meta: #7a3842;
   
-  /* Accent Colors - Gold */
-  --accent-gold: #d4af37;
-  --accent-gold-dark: #b8941f;
-  --accent-gold-light: #f4e4b0;
+  /* Accent Colors - Burgundy/Maroon */
+  --accent-burgundy: #69111f;
+  --accent-maroon: #6c1120;
+  --accent-dark: #4a0d15;
   
   /* Interactive States */
-  --interactive-base: #000000;
-  --interactive-hover: #d4af37;
-  --focus-outline: #d4af37;
+  --interactive-base: #69111f;
+  --interactive-hover: #4a0d15;
+  --focus-outline: #6c1120;
   
   /* Borders & Separators */
-  --border-light: #e0e0e0;
-  --border-medium: #cccccc;
-  --border-dark: #000000;
-  --border-gold: #d4af37;
+  --border-light: #d9cfc5;
+  --border-medium: #c4b5a8;
+  --border-dark: #69111f;
   
   /* Status Colors */
   --status-error: #ba3e2b;
-  --status-success: #4a4a4a;
+  --status-success: #6c1120;
 }
 
 /* Base Styles */
@@ -138,11 +137,11 @@ html {
   color: var(--text-light);
 }
 
-/* Button Styles - Sharp 0px Border Radius with Gold */
+/* Button Styles - Sharp 0px Border Radius with Burgundy */
 .btn-primary {
-  background: var(--accent-gold);
-  color: #000000;
-  border: 2px solid var(--accent-gold);
+  background: var(--accent-burgundy);
+  color: #ffffff;
+  border: 2px solid var(--accent-burgundy);
   border-radius: 0px;
   padding: 19px 32px;
   min-width: 210px;
@@ -161,16 +160,16 @@ html {
 }
 
 .btn-primary:hover {
-  background: transparent;
-  color: var(--accent-gold);
-  border: 2px solid var(--accent-gold);
+  background: var(--interactive-hover);
+  color: #ffffff;
+  border: 2px solid var(--interactive-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 12px rgba(105, 17, 31, 0.3);
 }
 
 .btn-primary:active {
-  background: var(--accent-gold-dark);
-  color: #000000;
+  background: var(--accent-dark);
+  color: #ffffff;
   transform: translateY(0);
 }
 
@@ -195,7 +194,7 @@ html {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--accent-gold);
+  background: var(--accent-burgundy);
   transition: width 0.5s ease-in-out;
 }
 

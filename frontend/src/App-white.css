@@ -401,6 +401,67 @@
   border-top: 1px solid var(--border-light);
 }
 
+/* FAQ Section */
+.faq-container {
+  max-width: 900px;
+  margin: 60px auto 0;
+}
+
+.faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background: white;
+  border: 2px solid var(--border-light);
+  border-radius: 0px;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: var(--accent-burgundy);
+  box-shadow: 0 4px 12px rgba(105, 17, 31, 0.1);
+}
+
+.faq-item[data-state="open"] {
+  border-color: var(--accent-burgundy);
+}
+
+.faq-question {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding: 24px 28px;
+  text-align: left;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  color: var(--accent-burgundy);
+}
+
+.faq-question[data-state="open"] {
+  color: var(--accent-burgundy);
+}
+
+.faq-answer {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  padding: 0 28px 24px 28px;
+}
+
+/* Accordion icon styling */
+.faq-question svg {
+  color: var(--accent-burgundy);
+  transition: transform 0.3s ease;
+}
+
 .contact-container {
   max-width: 900px;
   margin: 0 auto;

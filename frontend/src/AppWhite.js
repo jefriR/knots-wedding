@@ -5,7 +5,7 @@ import { Star, Calendar, ClipboardList, Sparkles, Mail, Instagram, Send } from "
 import { Toaster } from "./components/ui/sonner";
 import { toast } from "sonner";
 
-const LOGO_URL = "https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/2hpauqgp_knots.png";
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_knots-jakarta/artifacts/7c9ltu5c_Knots%20png.png";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1640439505734-3851b53e5035";
 const ABOUT_IMAGE = "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800";
 
@@ -318,7 +318,7 @@ function AppWhite() {
                       required
                     >
                       <option value="Jakarta">Jakarta</option>
-                      <option value="Bandung">Bandung</option>
+                      <option value="Tangerang">Tangerang</option>
                       <option value="Both">Both Locations</option>
                     </select>
                   </div>

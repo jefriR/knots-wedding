@@ -73,39 +73,39 @@ export const services = [
 export const galleryImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1767986012547-3fc29b18339f",
-    alt: "Elegant ceremony chairs with neutral decor",
-    category: "ceremony"
+    url: "https://images.pexels.com/photos/34389342/pexels-photo-34389342.jpeg",
+    alt: "Luxury wedding stage decoration",
+    category: "stage"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1767986012138-4893f40932d5",
-    alt: "Minimalist ceremony setup",
-    category: "ceremony"
+    url: "https://images.pexels.com/photos/34079355/pexels-photo-34079355.jpeg",
+    alt: "Elegant wedding stage setup",
+    category: "stage"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1765614766650-43c8625ae745",
-    alt: "Wedding accessories and details",
-    category: "details"
+    url: "https://images.unsplash.com/photo-1720749406941-a899d2e38be3",
+    alt: "Elegant wedding table setting",
+    category: "table"
   },
   {
     id: 4,
-    url: "https://images.pexels.com/photos/34793910/pexels-photo-34793910.jpeg",
-    alt: "Bride and groom under glamorous chandelier",
-    category: "couple"
+    url: "https://images.pexels.com/photos/4717553/pexels-photo-4717553.jpeg",
+    alt: "Wedding table decoration details",
+    category: "table"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1767986012138-d02276728368",
-    alt: "Elegant ceremony seating arrangement",
+    url: "https://images.unsplash.com/photo-1763560836989-d3636e2f82d8",
+    alt: "Wedding ceremony floral arch",
     category: "ceremony"
   },
   {
     id: 6,
-    url: "https://images.pexels.com/photos/33343763/pexels-photo-33343763.jpeg",
-    alt: "Wedding vow books with floral bouquet",
-    category: "details"
+    url: "https://images.pexels.com/photos/14703685/pexels-photo-14703685.jpeg",
+    alt: "Floral ceremony decoration",
+    category: "ceremony"
   }
 ];
 

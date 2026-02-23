@@ -122,8 +122,8 @@ export const faqs = [
   },
   {
     id: 3,
-    question: "Do you handle weddings in Jakarta and Tangerang?",
-    answer: "Yes! We proudly serve couples in both Jakarta and Tangerang, bringing our signature blend of meticulous planning and flawless execution to your celebration, wherever you choose to celebrate your special day."
+    question: "Do you handle weddings outside Jakarta and Tangerang?",
+    answer: "Yes! We also serve couples outside Jakarta and Tangerang, bringing our signature blend of meticulous planning and flawless execution to your celebration, wherever you choose to celebrate your special day."
   },
   {
     id: 4,

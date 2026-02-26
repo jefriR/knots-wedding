@@ -39,25 +39,60 @@ function AppWhite() {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    
-    // Mock form submission
-    console.log("Form submitted:", formData);
-    
-    toast.success("Thank you for your inquiry!", {
-      description: "We'll get back to you within 24 hours to discuss your special day.",
-      duration: 5000,
-    });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      eventDate: "",
-      location: "Jakarta",
-      message: ""
-    });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    
+    try {
+      const API_URL = process.env.REACT_APP_BACKEND_URL || '';
+      
+      const response = await fetch(`${API_URL}/api/contact/submit`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          event_date: formData.eventDate,
+          location: formData.location,
+          message: formData.message
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        toast.success("Thank you for your inquiry!", {
+          description: data.message || "We'll get back to you within 24 hours to discuss your special day.",
+          duration: 5000,
+        });
+
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          eventDate: "",
+          location: "Jakarta",
+          message: ""
+        });
+      } else {
+        toast.error("Submission failed", {
+          description: data.detail || data.message || "Please try again or contact us directly.",
+          duration: 5000,
+        });
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      toast.error("Connection error", {
+        description: "Unable to submit form. Please try again or contact us directly via WhatsApp.",
+        duration: 5000,
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

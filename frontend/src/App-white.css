@@ -754,3 +754,15 @@
     padding: 20px 10px 0;
   }
 }
+
+
+/* Spinner Animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-button:disabled {
+  cursor: not-allowed;
+}

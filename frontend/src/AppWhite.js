@@ -406,9 +406,32 @@ function AppWhite() {
                     ></textarea>
                   </div>
 
-                  <button type="submit" className="btn-primary form-button">
-                    <Send size={16} style={{ marginRight: '8px' }} />
-                    Send Inquiry
+                  <button 
+                    type="submit" 
+                    className="btn-primary form-button"
+                    disabled={isSubmitting}
+                    style={{ opacity: isSubmitting ? 0.7 : 1 }}
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <span className="spinner" style={{ 
+                          display: 'inline-block', 
+                          width: '16px', 
+                          height: '16px', 
+                          border: '2px solid #fff', 
+                          borderTopColor: 'transparent', 
+                          borderRadius: '50%', 
+                          animation: 'spin 1s linear infinite',
+                          marginRight: '8px' 
+                        }}></span>
+                        Sending...
+                      </>
+                    ) : (
+                      <>
+                        <Send size={16} style={{ marginRight: '8px' }} />
+                        Send Inquiry
+                      </>
+                    )}
                   </button>
                 </form>
               </div>
